@@ -1,7 +1,7 @@
 <?php
 
-$desimal = 2;
-
+$desimal = 3;
+echo "nilai Desimal : $desimal".nl2br("\r");
 function biner($desimal){
     $data = array();
     while($desimal>=1){
@@ -15,7 +15,7 @@ function biner($desimal){
     }
     
     $biner = implode($data);
-    echo strrev($biner);
+    echo "nilai Biner : ".strrev($biner);
 }
 
 biner($desimal);

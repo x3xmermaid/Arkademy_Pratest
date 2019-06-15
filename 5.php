@@ -1,6 +1,6 @@
 <?php
 
-$fString = "bananananana";;
+$fString = "banananana";;
 $sString = "nana";
 
 function palindrome ($fString, $sString){
@@ -21,7 +21,7 @@ function palindrome ($fString, $sString){
             $num++;
         }
     }
-    echo $num;
+    echo "jumlah kata yang sama adalah $num";
 }
 
 palindrome($fString, $sString);
